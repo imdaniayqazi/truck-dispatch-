@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Truck Dispatch Pro</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+<i class="fas fa-truck-moving"></i> DispatchPro
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+<li class="nav-item ms-3">
+<button id="themeBtn" class="btn btn-warning">
+🌙
+</button>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h1 class="display-3 fw-bold">
+Reliable Truck Dispatch Services
+</h1>
+
+<p class="lead mt-4">
+Professional dispatching, route planning and driver support
+for trucking businesses across the country.
+</p>
+
+<div class="mt-4">
+
+<a href="services.html" class="btn btn-primary btn-lg me-3">
+Explore Services
+</a>
+
+<a href="contact.html" class="btn btn-outline-light btn-lg">
+Get Started
+</a>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats py-5">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+<h2 class="counter" data-target="5000">0</h2>
+<p>Loads Dispatched</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="counter" data-target="250">0</h2>
+<p>Drivers</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="counter" data-target="98">0</h2>
+<p>Success Rate %</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="counter" data-target="24">0</h2>
+<p>Hours Support</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY US -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Why Choose Us
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="fas fa-route fa-3x text-primary mb-3"></i>
+
+<h4>Smart Route Planning</h4>
+
+<p>
+Optimized routes for faster delivery and fuel savings.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="fas fa-headset fa-3x text-success mb-3"></i>
+
+<h4>24/7 Support</h4>
+
+<p>
+Dedicated dispatch team available all day.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<i class="fas fa-shield-alt fa-3x text-danger mb-3"></i>
+
+<h4>Reliable Service</h4>
+
+<p>
+Trusted by hundreds of trucking companies.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TRACKING DEMO -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Live Truck Tracking
+</h2>
+
+<div class="card shadow-lg">
+
+<div class="card-body p-4">
+
+<h5>Truck ID: TRK-101</h5>
+
+<p>Current Location: Texas</p>
+
+<p>Status: On Route</p>
+
+<p>ETA: 3 Hours</p>
+
+<div class="progress">
+
+<div
+class="progress-bar progress-bar-striped progress-bar-animated"
+style="width:70%">
+70%
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="bg-dark text-white py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Client Testimonials
+</h2>
+
+<div id="testimonialSlider"
+class="carousel slide"
+data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<div class="text-center">
+
+<h4>⭐⭐⭐⭐⭐</h4>
+
+<p>
+Best dispatch service we ever worked with.
+</p>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="text-center">
+
+<h4>⭐⭐⭐⭐⭐</h4>
+
+<p>
+Excellent communication and route planning.
+</p>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="text-center">
+
+<h4>⭐⭐⭐⭐⭐</h4>
+
+<p>
+Highly professional dispatch team.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta text-center py-5">
+
+<div class="container">
+
+<h2>
+Ready To Grow Your Trucking Business?
+</h2>
+
+<a href="contact.html"
+class="btn btn-success btn-lg mt-3">
+
+Contact Us
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-black text-white py-4">
+
+<div class="container text-center">
+
+<p>
+© 2026 DispatchPro. All Rights Reserved.
+</p>
+
+<p>
+Email: info@dispatchpro.com
+</p>
+
+</div>
+
+</footer>
+
+<!-- WHATSAPP -->
+
+<a href="#"
+class="whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
